@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Make stamps, postcards, and friends at Make Your Mark, November 11, 2026, at the TML Suite in Thompson Hall.">
+  <title>Make Your Mark — TML Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="flyer">
+    <header class="hero">
+      <h1><span class="title-top fit-line">make your</span><span class="title-bottom fit-line">mark</span></h1>
+      <p class="tagline fit-line">make stamps, postcards, and friends!</p>
+      <!-- Replace each gray SVG with your own photo; see README.md. -->
+      <div class="photo-grid" aria-label="Workshop photo placeholders">
+        <img src="images/lion.png" alt="" width="100" height="100">
+        <img src="images/tclogo.png" alt="" width="100" height="100">
+        <img src="images/placeholder.svg" alt="" width="100" height="100">
+        <img src="images/placeholder.svg" alt="" width="100" height="100">
+        <img src="images/placeholder.svg" alt="" width="100" height="100">
+        <img src="images/placeholder.svg" alt="" width="100" height="100">
+      </div>
+      <div class="event-details">
+        <p><time class="fit-line" datetime="2026-11-11T15:00:00-05:00">November 11, 2026 3:00PM – 5:00PM</time><span class="fit-line">@ the TML Suite (322 Thompson Hall)</span></p>
+        <p class="capacity">*Stamp carving available to the first 20 signups. But all are welcome to decorate cards with premade stamps!</p>
+      </div>
+    </header>
+
+    <section class="registration" aria-labelledby="register-heading">
+      <h2 id="register-heading">Register by Nov. 2</h2>
+      <p>Sign up even if you don’t plan to carve!</p>
+      <p id="countdown" class="countdown" hidden></p>
+      <button class="register-button" id="register-button" type="button">Register Now</button>
+      <p id="registration-note" class="registration-note" role="status" hidden>The registration link is coming soon. Please check back!</p>
+    </section>
+
+    <a class="scroll-prompt" href="#event-flow">scroll for more info!<span aria-hidden="true">↓</span></a>
+
+    <section class="flow" id="event-flow" aria-labelledby="flow-heading">
+      <h2 id="flow-heading">Event Flow</h2>
+      <ol class="steps">
+        <li>
+          <h3>carve your own stamp</h3>
+          <p>Draw your own design and carve.</p>
+          <img src="images/placeholder.svg" alt="" width="200" height="140">
+        </li>
+        <li>
+          <h3>decorate postcards</h3>
+          <p>Decorate postcards with your own stamps and your peers’ designs. Make a few postcards for the holidays!</p>
+          <img src="images/placeholder.svg" alt="" width="200" height="140">
+        </li>
+        <li>
+          <h3>make your info card</h3>
+          <p>Fill out an info card with your stamp, socials, academic interests, and favorite hobbies.</p>
+          <img src="images/placeholder.svg" alt="" width="200" height="140">
+        </li>
+        <li>
+          <h3>share on bulletin board</h3>
+          <p>Pin your info card on a TML bulletin board and connect with others!</p>
+          <img src="images/placeholder.svg" alt="" width="200" height="140">
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
